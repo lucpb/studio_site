@@ -1,0 +1,36 @@
+# ── Dependencies ───────────────────────────────────────────────────────────────
+/node_modules/
+/.pnp
+.pnp.js
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+
+# ── Build outputs ──────────────────────────────────────────────────────────────
+/build/
+/dist/
+
+# ── Environment variables ──────────────────────────────────────────────────────
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ── Test coverage ──────────────────────────────────────────────────────────────
+/coverage/
+
+# ── Logs ───────────────────────────────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ── Miscellaneous ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# Cursor AI Code Editor local state
+.cursor/
+
+# ── Tailwind-generated files ─────────────────────────────────────────
+/tailwind.css
+/tailwind.min.css
